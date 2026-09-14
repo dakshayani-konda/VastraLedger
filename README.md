@@ -1,37 +1,37 @@
-# VastraLedger 🧾
+# VastraLedger — Clothing Store Management Dashboard
 
-### Clothing Store Management Dashboard
+VastraLedger is a **React-based clothing store management dashboard** designed to organize and streamline the day-to-day operations of a small clothing business.
 
-VastraLedger is a **React-based clothing store management dashboard** built to simplify and organize the daily operations of a small clothing business.
+The application provides a centralized interface for managing **products, customers, sales, billing, inventory, reports, and store settings**.
 
-It brings **products, customers, sales, billing, inventory, reports, and store settings** together in one centralized application.
+It uses the browser's **localStorage API** for client-side data persistence and provides a responsive dashboard for managing store information.
 
-The project uses **LocalStorage** to persist business data in the browser and provides a responsive, user-friendly dashboard for managing store information.
-
+---
 
 ## 📌 About the Project
 
-Running a clothing store involves managing products, stock, customers, sales, and payments on a regular basis.
+Managing a clothing store involves handling products, inventory, customers, sales, payments, and business records.
 
-VastraLedger provides a single dashboard where a store owner can manage these activities efficiently.
+VastraLedger brings these operations together into a single dashboard, allowing users to manage store data and monitor business activity efficiently.
 
 ### The application allows users to:
 
 * Manage products and inventory
-* Add and manage customer records
+* Maintain customer records
 * Record sales transactions
-* Create and track bills
+* Create and manage bills
 * Monitor low-stock products
 * Search products, customers, and sales
 * View business reports and statistics
 * Manage basic store preferences
 
+---
 
 ## ✨ Features
 
 ### 📊 Dashboard
 
-Provides a quick overview of the store's current business activity.
+Provides an overview of the store's current business activity.
 
 * Total sales
 * Total products
@@ -42,10 +42,9 @@ Provides a quick overview of the store's current business activity.
 * Low-stock alerts
 * Dynamic business statistics
 
-
 ### 📦 Product Management
 
-Manage clothing products and inventory.
+Manage clothing products and inventory records.
 
 * Add products
 * Store product name and category
@@ -53,11 +52,11 @@ Manage clothing products and inventory.
 * Track stock quantity
 * Delete products
 * Identify low-stock products
-* Store product data using LocalStorage
+* Persist product data using `localStorage`
 
 ### 👥 Customer Management
 
-Maintain customer information in one place.
+Maintain customer information within the application.
 
 * Add customers
 * Store name, phone number, and address
@@ -65,10 +64,9 @@ Maintain customer information in one place.
 * Delete customers
 * Preserve customer data after page refresh
 
-
 ### 💰 Sales Management
 
-Record and track sales transactions.
+Record and manage sales transactions.
 
 * Add sales
 * Select products and customers
@@ -77,8 +75,7 @@ Record and track sales transactions.
 * Automatically calculate total amount
 * View sales history
 * Delete sales records
-* Store sales data using LocalStorage
-
+* Persist sales data using `localStorage`
 
 ### 🧾 Billing
 
@@ -87,14 +84,13 @@ Create and manage customer bills.
 * Enter customer details
 * Add product details
 * Enter quantity and price
-* Automatically calculate bill total
+* Automatically calculate bill totals
 * Track payment status
 * View generated bills
 
-
 ### 📈 Reports & Analytics
 
-Generate business statistics automatically from the stored application data.
+Generate business statistics dynamically from stored application data.
 
 Reports include:
 
@@ -108,12 +104,11 @@ Reports include:
 * Total bills
 * Detailed sales records
 
-The reports are generated from actual application data rather than manually entered values.
-
+The reports are calculated from actual application data rather than manually entered values.
 
 ### 🔎 Global Search
 
-Search business records quickly from one place.
+Provides centralized searching across business records.
 
 Currently supports searching for:
 
@@ -130,20 +125,22 @@ Manage basic store preferences.
 * Save settings
 * Reset settings
 
+---
 
 ## 🛠️ Tech Stack
 
 | Technology            | Purpose                       |
 | --------------------- | ----------------------------- |
-| **React**             | Building the user interface   |
+| **React.js**          | Building the user interface   |
 | **JavaScript (ES6+)** | Application logic             |
 | **Vite**              | Development and build tool    |
-| **React Router**      | Page navigation               |
+| **React Router**      | Client-side page navigation   |
 | **CSS3**              | Styling and responsive design |
-| **LocalStorage API**  | Client-side data persistence  |
+| **localStorage API**  | Client-side data persistence  |
 | **Git**               | Version control               |
 | **GitHub**            | Source code management        |
 
+---
 
 ## 🧠 React Concepts Used
 
@@ -160,11 +157,12 @@ This project demonstrates practical usage of:
 * `map()`
 * `filter()`
 * `reduce()`
-* LocalStorage
-* Dynamic Calculations
 * State Management
 * CRUD Operations
+* Dynamic Calculations
+* `localStorage`
 
+---
 
 ## 📁 Project Structure
 
@@ -198,37 +196,47 @@ VastraLedger/
 └── README.md
 ```
 
-
-
+---
 
 ## 🚀 Getting Started
 
-### 1. Clone the repository
+### 1. Clone the Repository
 
+```bash
 git clone https://github.com/dakshayani-konda/VastraLedger.git
+```
 
-### 2. Open the project
+### 2. Open the Project
 
+```bash
 cd VastraLedger
+```
 
-### 3. Install dependencies
+### 3. Install Dependencies
 
+```bash
 npm install
+```
 
-### 4. Start the development server
+### 4. Start the Development Server
 
+```bash
 npm run dev
+```
 
-Open the local URL shown in the terminal, usually:
+Open the local URL displayed in the terminal, usually:
 
+```text
 http://localhost:5173
+```
 
+---
 
 ## 💾 Data Storage
 
-VastraLedger currently uses the **browser's LocalStorage API** to store application data.
+VastraLedger currently uses the browser's **localStorage API** for client-side data persistence.
 
-This allows the application to retain:
+The application stores:
 
 * Product records
 * Customer records
@@ -239,10 +247,11 @@ This allows the application to retain:
 
 > **Note:** Data is currently stored locally in the browser and is not connected to a backend server or shared database.
 
+---
 
 ## 🔮 Future Enhancements
 
-The current frontend version can be extended into a complete full-stack application.
+The current frontend application can be extended into a complete full-stack system.
 
 Planned improvements include:
 
@@ -258,23 +267,26 @@ Planned improvements include:
 * Online product catalog
 * Cloud deployment
 
+---
 
 ## 🎯 Project Objective
 
-The main objective of VastraLedger is to build a practical software solution for managing the everyday operations of a clothing store while demonstrating modern **React development and frontend application design**.
+The primary objective of VastraLedger is to develop a practical software solution for managing the everyday operations of a clothing store while demonstrating modern **React development and frontend application design**.
 
 The project focuses on:
 
 * Building reusable components
 * Managing application state
-* Performing CRUD operations
+* Implementing CRUD operations
 * Working with persistent client-side data
 * Creating dynamic dashboards
-* Implementing business calculations
+* Performing business calculations
 * Designing responsive user interfaces
 
+---
 
 ## 👩‍💻 Author
 
 **Dakshayani Konda**
 
+GitHub: [dakshayani-konda](https://github.com/dakshayani-konda) | LinkedIn: [dakshayani-konda](https://linkedin.com/in/dakshayani-konda)
