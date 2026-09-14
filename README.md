@@ -289,4 +289,4 @@ The project focuses on:
 
 **Dakshayani Konda**
 
-GitHub: [dakshayani-konda](https://github.com/dakshayani-konda) | LinkedIn: [dakshayani-konda](https://linkedin.com/in/dakshayani-konda)
+GitHub | LinkedIn
