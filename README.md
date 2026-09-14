@@ -168,10 +168,12 @@ This project demonstrates practical usage of:
 
 ## 📁 Project Structure
 
+```text
 VastraLedger/
 │
+├── public/
+│
 ├── src/
-│   │
 │   ├── components/
 │   │   ├── Dashboard.jsx
 │   │   ├── Navbar.jsx
@@ -191,10 +193,11 @@ VastraLedger/
 │   ├── index.css
 │   └── main.jsx
 │
-├── public/
 ├── package.json
 ├── package-lock.json
 └── README.md
+```
+
 
 
 
